@@ -9,9 +9,9 @@ export default defineConfig({
 
   server: {
     proxy: {
-      "/api/": "http://localhost:3000",
+      "/api/": "https://movies-app-1-dv39.onrender.com",
 
-      "/uploads/": "http://localhost:3000",
+      "/uploads/": "https://movies-app-1-dv39.onrender.com",
       
     },
   
