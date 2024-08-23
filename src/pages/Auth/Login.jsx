@@ -47,6 +47,8 @@ const Login = () => {
       dispatch(setCredentials({ ...res }));
       navigate(redirect);
     } catch (err) {
+      console.log(email);
+      console.log(password);
       toast.error(err?.data?.message || err.error);
     }
   };
