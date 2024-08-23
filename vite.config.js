@@ -9,9 +9,9 @@ export default defineConfig({
 
   server: {
     proxy: {
-      "/api/": "https://movies-app-1-oofp.onrender.com",
+      "/api/": "https://movies-app-dkd2.onrender.com",
 
-      "/uploads/": "https://movies-app-1-oofp.onrender.com",
+      "/uploads/": "https://movies-app-dkd2.onrender.com",
       
     },
   
